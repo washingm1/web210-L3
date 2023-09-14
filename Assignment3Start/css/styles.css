@@ -1,11 +1,18 @@
+/* COLOR PALLETTE: 
+Background - #dfdbe5
+header - #232c33
+section background - #55557c
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(252, 252, 245);
+  font-family: "Raleway", sans-serif;
+  background-color: #dfdbe5;
   display: inline-block;
 }
 
@@ -18,7 +25,7 @@ a:hover {
 }
 
 header {
-  background-color: rgb(72, 102, 13);
+  background-color: #232c33;
   padding: 2vh;
   color: rgb(255, 255, 255);
   margin-bottom: 4vh;
@@ -28,16 +35,50 @@ header {
 header h1 {
   margin-bottom: 20px;
   font-size: 4rem;
+  text-shadow: 2px 5px 20px #000000;
 }
 
 section h2 {
   font-size: 3rem;
+  text-align: center;
 }
 
-section {
-  margin-left: 2vw;
-  text-align: left;
-  padding: 2rem;
+.section-content {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  color: white;
+  margin-top: 5vh;
+  background-color: #55557c;
+}
+
+.section-wrapper {
+  padding: 3rem;
+  height: auto;
+}
+
+section h3 {
+  margin-top: 2vh;
+  font-size: 2vh;
+}
+
+section p {
+  height: auto;
+  font-size: 1.3vw;
+  line-height: 2vh;
+  max-height: 100%;
+}
+
+section a {
+  margin-top: 10vh;
+}
+
+section img {
+  padding-left: 2vw;
+  float: right;
+  height: auto;
+
+  max-height: 100%;
 }
 
 footer {
